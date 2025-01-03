@@ -1,0 +1,13 @@
+.vani {
+    color:blue(42,48,165);
+    background-color: green;
+  
+}
+<style>
+h1 {
+    color:red;
+}
+</style>
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
