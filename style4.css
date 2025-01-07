@@ -1,0 +1,15 @@
+.box{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-decoration: none;
+    justify-content:space-around;
+    gap: 50px;
+    font-size: 15px;
+}
+.bi{
+    color: white;
+    justify-content:end;
+    gap:5px;
+    padding:20px;
+}
