@@ -1,0 +1,12 @@
+.container{
+    position: absolute;
+    top:250px;
+    left:800px;
+    width:20%;
+}
+span{
+    position:absolute;
+    left:10px;
+    bottom:10px;
+    color:white;
+}
