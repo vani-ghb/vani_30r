@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>units</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h2>1.PX</h2>
+    <div class="box-px">
+        Box with px units
+    </div>
+    <h2>2.%</h2>
+    <p><b>Explanation:</b>when parent conatiner changing the sizes then child conatiner taking it's percetages according to parent container sizes </p>
+    <div class="parent-percent">
+        <div class="child-percent">
+            Box with % units
+        </div>
+    </div>
+    <h2>3.Rem</h2>
+    <p class="rem-paragraph">This paragraph uses Rem units</p>
+    <p><b>Explanation:</b>Default font size of Root is 16px when size changes inside container it will multiply both values</p>
+    <h2>4.em</h2>
+    <div class="parent-em">
+        <p class="child-em">This paragraph uses em units.</p>
+    </div>
+    <p><b>Explanation:</b>Default font size of Root is 16px when size changes inside container it will multiply both values</p>
+    <h2>5.vw</h2>
+    <div class="box-vw">Box with vw units</div>
+    <h2>6.vh</h2>
+    <div class="box-vh">Box with vh units</div>
+    <h2>7.vmin</h2>
+    <div class="square-vmin">Square with vmin units</div>
+    <h2>8.vmax</h2>
+    <div class="square-vmax">Square with vmax units</div>
+    <h2>9.parent child relationship (Box with Relative and Absolute Positioning)</h2>
+    <div class="parent-relative">
+        <div class="child-absolute"><b>Child Box</b></div>
+    </div>
+    <h2>10.Parent-Child Relationship (Font Size Inheritance)</h2>
+    <div class="parent-font">
+        Parent Text
+        <div class="child-font">Child Text (Inherits Font Size)</div>
+    </div>
+    <p><b>Explanation:</b>when parent text size changes then child properties also changes due to Inheritance.</p>
+
+
+</body>
+</html>

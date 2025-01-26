@@ -1,0 +1,82 @@
+
+*{
+    box-sizing: border-box;
+    padding:0;
+}
+.box-px{
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+    border: 2px solid black;
+}
+.child-percent{
+    width:50%;
+    height:50%;
+    background-color: blueviolet;
+}
+.parent-percent{
+    width: 300px;
+    height:300px;
+    border:2px solid;
+    background-color: lightcyan;
+}
+.rem-paragraph{
+    font-size:2rem;
+}
+.parent-em{
+    font-size: 16px;
+}
+.child-em{
+    font-size: 1.5rem;
+}
+html{
+    font-size:16px;
+}
+.box-vw{
+    height:100px;
+    width:50vh;
+    border: 2px solid;
+    background-color: lightgreen;
+}
+.box-vh{
+    height: 25vh;
+    width: 200px;
+    border: 2px solid;
+    background-color: lightsalmon;
+}
+.square-vmin{
+    width: 20vmin;
+    height: 20vmin;
+    background-color: lightpink;
+    border:2px solid;
+}
+.square-vmax{
+    width: 20vmax;
+    height:20vmax;
+    background-color: lightskyblue;
+    border:2px solid;
+}
+.parent-relative{
+    width:400px;
+    height:300px;
+    position: relative;
+    background-color: rgb(238, 238, 78);
+    border: 2px solid;
+}
+.child-absolute{
+    width:200px;
+    height:150px;
+    position: absolute;
+    background-color: purple;
+    border: 2px solid;
+    bottom:0;
+    right:0;
+    padding: 10px;
+}
+.parent-font{
+    font-size: 20px;
+}
+.child-font{
+    font-size: inherit;
+
+}
