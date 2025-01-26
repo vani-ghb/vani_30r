@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<style>
+    *{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+   height:100vh;
+    gap:10px;
+    background-color: gray;
+    grid-template-areas: 
+    'a b b c c'
+    'd b b e e'
+    'f g h i j'
+    'k l h m n';
+   
+}
+    .item{
+       
+        /* width:100vw;  */
+        
+    }
+ .item-1{
+    grid-area:a;
+ }
+ .item-2{
+    grid-area:b;
+ }
+ .item-3{
+    grid-area:c;
+ }
+ .item-4{
+    grid-area:d;
+ }
+ .item-5{
+    grid-area:e;
+ }
+ .item-6{
+    grid-area:f;
+ }
+ .item-7{
+    grid-area:g;
+ }
+ .item-8{
+    grid-area:h;
+ }
+ .item-9{
+    grid-area:i;
+ }
+ .item-10{
+    grid-area:j;
+ }
+ .item-11{
+    grid-area:k;
+ }
+ .item-12{
+    grid-area:l;
+ }
+ .item-13{
+    grid-area:m;
+ }
+ .item-14{
+    grid-area:n;
+ }
+
+
+    
+ @media  screen and (max-width:900px){
+    .grid-container{
+        grid-template-columns : repeat(2,1fr); 
+        height:100vh;  
+        grid-template-areas: 
+        'a b'
+        'c d'
+        'e f'
+        'g h'
+        'i j'
+        'k l'
+        'm n';
+    }
+}
+@media screen and (max-width : 500px){
+    .grid-container{
+        grid-template-columns : repeat(1,2fr);
+        grid-template-areas: 
+        'a'
+        'b'
+        'c'
+        'd'
+        'e'
+        'f'
+        'g'
+        'h'
+        'i'
+        'j'
+        'k'
+        'l'
+        'm'
+        'n';
+    }
+}
+    
+    .item{
+       
+      
+     
+    }
+ 
+.item{
+  
+
+  padding:10px;
+  border: 2px solid black;
+   
+    background-image: linear-gradient(10deg,purple,teal);
+}
+ .item-1,.item-4,.item-6,.item-7,.item-9,.item-10,.item-11,.item-12,.item-13,.item-14{
+    background-image: linear-gradient(10deg,lightcoral,teal);
+ }
+ .item3,.item5{
+    background-image: linear-gradient(10deg,red,green);
+ }
+ 
+</style>
+<body>
+    <div class="grid-container">
+        <div class="item item-1">item-1</div>
+        <div class="item item-2">item-2</div>
+        <div class="item item-3">item-3</div>
+        <div class="item item-4">item-4</div>
+        <div class="item item-5">item-5</div>
+        <div class="item item-6">item-6</div>
+        <div class="item item-7">item-7</div>
+        <div class="item item-8">item-8</div>
+        <div class="item item-9">item-9</div>
+        <div class="item item-10">item-10</div>
+        <div class="item item-11">item-11</div>
+        <div class="item item-12">item-12</div>
+        <div class="item item-13">item-13</div> 
+        <div class="item item-14">item-14</div>  
+    </div>
+</body>
+</html>
