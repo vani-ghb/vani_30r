@@ -1,0 +1,71 @@
+1)--------------------------
+function sayHello () {
+console.log("Hello World");
+}
+sayHello();
+2)---------------------------
+function displayWarning () {
+console.log("warning!system overload!");
+}
+displayWarning();
+3)----------------------------------
+function printStatus() {
+console.log("system status :active");
+}
+printstatus();
+4)-------------------------------------
+function intilization(){
+console. log ("Inbilization complete"); 
+shutDown();
+}
+function shutDown () {
+console.log ("system shutting Down");
+}
+Intilization();
+5)-------------------------------------------
+function startProcess () {
+Console.log("process Started");
+endProcess ();
+}
+function endProcess (){
+console.log ("process Ended");
+}
+startProcess();
+6)--------------------------------------------
+function greetUser (){
+consoler log ("Hello "+name+'');
+}
+greetuser("vani");
+7)-----------------------------------------------
+function calculateSum ( a,b) {
+console.log (a+b);
+}
+sum(2,3)
+sum(7,8)
+8)--------------------------------------------------------
+function countDown () {
+ for (var i=5;i>=1;i--){
+console.log (i);
+}
+}
+countDown();
+9)---------------------------------------------------------
+function checkEvenOdd (){
+var a=10;
+if (n%2=0){
+Console.log ("odd");
+}
+else:{
+}
+console.log("Even");
+}
+CheckEvenOdd ();
+10)-------------------------------------------------------
+function beginSession () {
+console.log ("session started");
+endSession();
+}
+function endSession () {
+console.log("session ended");
+}
+beginSession ();
